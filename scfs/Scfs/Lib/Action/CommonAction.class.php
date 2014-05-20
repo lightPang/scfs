@@ -2,7 +2,7 @@
     class CommonAction extends Action{
         protected function check_log_state(){
             return true;
-        }
+        } 
 
         public function index(){
             //$school_id = $_GET['s_id'];
