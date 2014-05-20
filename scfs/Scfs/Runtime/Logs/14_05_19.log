@@ -1,0 +1,1521 @@
+[ 2014-05-19T19:19:04+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010168s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001675s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\PgmTools\xampp\htdocs\scfs\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\PgmTools\xampp\htdocs\scfs\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000768s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003853s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000983s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000966s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006758s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001407s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001463s ]
+
+[ 2014-05-19T19:19:09+08:00 ] 0.0.0.0 /scfs/index.php/Query
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007333s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007469s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.016319s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 )  [ RunTime:0.000650s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: th_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 230 行.
+NOTIC: [8] Undefined variable: body_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 233 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068309s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000688s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000544s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000389s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002465s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001064s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2014-05-19T19:19:15+08:00 ] 0.0.0.0 /scfs/index.php/Info
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.011506s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.014555s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.011636s ]
+SQL: SELECT * FROM `student`  [ RunTime:0.000459s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000368s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000541s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000268s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000588s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000326s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000290s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000432s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000467s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000459s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000267s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000367s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000434s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000451s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000279s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000332s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000431s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000432s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000346s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000290s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000480s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000395s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000405s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000367s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000232s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000380s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000390s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000400s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000409s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000312s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 )  [ RunTime:0.000310s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036932s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000732s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000491s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000394s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002393s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001154s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2014-05-19T19:19:26+08:00 ] 0.0.0.0 /scfs/index.php/Common/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000709s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.027834s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000608s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039659s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000712s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000532s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000385s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002540s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000930s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2014-05-19T19:19:30+08:00 ] 0.0.0.0 /scfs/index.php/Data
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000720s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+NOTIC: [8] Undefined index: school_id D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\DataAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.028601s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.015494s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000474s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 13 )  [ RunTime:0.000393s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 14 )  [ RunTime:0.000372s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 16 )  [ RunTime:0.000371s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030356s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000474s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000376s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001774s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000597s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2014-05-19T19:19:37+08:00 ] 0.0.0.0 /scfs/index.php/Common/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000770s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.012957s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000440s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021504s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000790s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000379s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000325s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002088s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2014-05-19T20:21:48+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001808s ]
+
+[ 2014-05-19T20:22:55+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001896s ]
+
+[ 2014-05-19T20:23:34+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+
+[ 2014-05-19T20:23:35+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+
+[ 2014-05-19T20:23:41+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+
+[ 2014-05-19T20:23:41+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002782s ]
+
+[ 2014-05-19T20:23:42+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001386s ]
+
+[ 2014-05-19T20:23:42+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+
+[ 2014-05-19T20:23:42+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+
+[ 2014-05-19T20:23:49+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+
+[ 2014-05-19T20:25:19+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+
+[ 2014-05-19T20:25:25+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+
+[ 2014-05-19T20:29:50+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040717s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001692s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001216s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000924s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005137s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001924s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002044s ]
+
+[ 2014-05-19T20:31:12+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021687s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000772s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000602s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000520s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002731s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000919s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-05-19T20:34:07+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019770s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001429s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001166s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000896s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004647s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001366s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001463s ]
+
+[ 2014-05-19T20:35:04+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018745s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000884s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000667s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000514s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002985s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001243s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001378s ]
+
+[ 2014-05-19T20:36:30+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019683s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000702s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000648s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000498s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002719s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000917s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2014-05-19T20:36:31+08:00 ] 0.0.0.0 /scfs/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011972s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012087s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+
+[ 2014-05-19T20:36:56+08:00 ] 0.0.0.0 /scfs/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000820s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+
+[ 2014-05-19T20:37:23+08:00 ] 0.0.0.0 /scfs/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001094s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+
+[ 2014-05-19T20:38:09+08:00 ] 0.0.0.0 /scfs/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001676s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001861s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+
+[ 2014-05-19T20:38:19+08:00 ] 0.0.0.0 /scfs/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001178s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001272s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+
+[ 2014-05-19T20:39:51+08:00 ] 0.0.0.0 /scfs/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001098s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001197s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+
+[ 2014-05-19T20:41:05+08:00 ] 0.0.0.0 /scfs/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000980s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+
+[ 2014-05-19T20:41:32+08:00 ] 0.0.0.0 /scfs/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+NOTIC: [8] Undefined index: user_account D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\UserAction.class.php 第 40 行.
+
+[ 2014-05-19T20:42:57+08:00 ] 0.0.0.0 /scfs/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001131s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+NOTIC: [8] Undefined index: user_account D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\UserAction.class.php 第 40 行.
+
+[ 2014-05-19T20:43:22+08:00 ] 0.0.0.0 /scfs/index.php/User/login?data=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001002s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001108s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+NOTIC: [8] Undefined index: user_account D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\UserAction.class.php 第 40 行.
+
+[ 2014-05-19T20:43:42+08:00 ] 0.0.0.0 /scfs/index.php/User/login?data=1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+NOTIC: [8] Undefined index: user_account D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\UserAction.class.php 第 40 行.
+
+[ 2014-05-19T20:43:46+08:00 ] 0.0.0.0 /scfs/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000971s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+NOTIC: [8] Undefined index: user_account D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\UserAction.class.php 第 40 行.
+
+[ 2014-05-19T20:44:59+08:00 ] 0.0.0.0 /scfs/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001138s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001232s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+NOTIC: [8] Undefined index: user_account D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\UserAction.class.php 第 40 行.
+
+[ 2014-05-19T20:45:25+08:00 ] 0.0.0.0 /scfs/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000973s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+NOTIC: [8] Undefined index: user_account D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\UserAction.class.php 第 40 行.
+
+[ 2014-05-19T20:45:42+08:00 ] 0.0.0.0 /scfs/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001412s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+NOTIC: [8] Undefined index: user_account D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\UserAction.class.php 第 40 行.
+
+[ 2014-05-19T20:46:55+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020921s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000689s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000567s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000477s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002519s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001196s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2014-05-19T20:47:00+08:00 ] 0.0.0.0 /scfs/index.php/User/login?user_account=ad&user_pwd=ee
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001791s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001937s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001899s ]
+NOTIC: [8] Undefined index: user_account D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\UserAction.class.php 第 40 行.
+
+[ 2014-05-19T20:47:11+08:00 ] 0.0.0.0 /scfs/index.php/User/login?user_account=ad&user_pwd=ee
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001868s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002031s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001887s ]
+NOTIC: [8] Undefined index: user_account D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\UserAction.class.php 第 40 行.
+
+[ 2014-05-19T20:47:28+08:00 ] 0.0.0.0 /scfs/index.php/User/login?user_account=admin&user_pwd=passme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001034s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [8] Undefined index: user_account D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\UserAction.class.php 第 40 行.
+
+[ 2014-05-19T20:48:20+08:00 ] 0.0.0.0 /scfs/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001725s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022204s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001231s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000791s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000727s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003849s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001107s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2014-05-19T20:48:25+08:00 ] 0.0.0.0 /scfs/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001283s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.015291s ]
+SQL: SELECT * FROM `user` WHERE ( `user_pwd` = 'passme' ) AND ( `user_account` = 'admin' )  [ RunTime:0.000590s ]
+
+[ 2014-05-19T20:49:37+08:00 ] 0.0.0.0 /scfs/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001055s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.031989s ]
+SQL: SELECT * FROM `user` WHERE ( `user_pwd` = 'passme' ) AND ( `user_account` = 'admin' )  [ RunTime:0.000768s ]
+
+[ 2014-05-19T20:52:20+08:00 ] 0.0.0.0 /scfs/index.php/User/logout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001062s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+ERR: 非法操作:logout
+
+[ 2014-05-19T20:52:27+08:00 ] 0.0.0.0 /scfs/index.php/User/log_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001071s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+ERR: 模板不存在[./Scfs/Tpl/User/Index.html]
+
+[ 2014-05-19T20:52:38+08:00 ] 0.0.0.0 /scfs/index.php/User/log_out
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001510s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001647s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018506s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000613s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000603s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000473s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002478s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000898s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2014-05-19T20:52:54+08:00 ] 0.0.0.0 /scfs/index.php/Qe
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001238s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001336s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+ERR: 无法加载模块:Qe
+
+[ 2014-05-19T20:52:58+08:00 ] 0.0.0.0 /scfs/index.php/Query
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001262s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.015980s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 )  [ RunTime:0.000554s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: th_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 230 行.
+NOTIC: [8] Undefined variable: body_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 233 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032812s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000820s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000722s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000671s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003138s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000932s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2014-05-19T20:53:02+08:00 ] 0.0.0.0 /scfs/index.php/Common/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000961s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.029081s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000684s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029926s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001066s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000701s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000534s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003267s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001098s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2014-05-19T20:54:09+08:00 ] 0.0.0.0 /scfs/index.php/Query
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.013311s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 )  [ RunTime:0.000461s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: th_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 230 行.
+NOTIC: [8] Undefined variable: body_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 233 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029326s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000833s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000741s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000524s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002971s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000928s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2014-05-19T20:54:11+08:00 ] 0.0.0.0 /scfs/index.php/Info/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001112s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.008562s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.010746s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.011101s ]
+SQL: SELECT * FROM `student`  [ RunTime:0.000440s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000248s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000369s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000477s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000401s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000347s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000393s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000367s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000296s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000331s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000274s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000376s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000411s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000326s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000267s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000376s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000269s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000452s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000375s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000257s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000350s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000372s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000382s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000280s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000401s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000229s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000406s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000339s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000350s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000413s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000367s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 )  [ RunTime:0.000412s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029733s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000799s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000725s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000436s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002822s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000993s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2014-05-19T20:54:45+08:00 ] 0.0.0.0 /scfs/index.php/Common/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001111s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.027906s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000674s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050192s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000973s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000754s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000698s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003663s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001522s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001635s ]
+
+[ 2014-05-19T20:54:57+08:00 ] 0.0.0.0 /scfs/index.php/Ctr/saveCtr
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001575s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001726s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.025285s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `ctr_id` = 1 )  [ RunTime:0.000512s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `ctr_id` = 12 )  [ RunTime:0.000453s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `ctr_id` = 13 )  [ RunTime:0.000443s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `ctr_id` = 14 )  [ RunTime:0.000503s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `ctr_id` = 16 )  [ RunTime:0.000471s ]
+SQL: INSERT INTO `info_ctr` (`title`,`type`,`school_id`) VALUES ('pp',0,1) [ RunTime:0.051430s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051832s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002049s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002216s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001620s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008885s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001568s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001672s ]
+
+[ 2014-05-19T20:55:00+08:00 ] 0.0.0.0 /scfs/index.php/Common/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001229s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.026150s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000669s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000879s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000705s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000448s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002848s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000907s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2014-05-19T20:55:03+08:00 ] 0.0.0.0 /scfs/index.php/Info/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001047s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.018058s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.017404s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.012456s ]
+SQL: SELECT * FROM `student`  [ RunTime:0.000488s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000408s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000462s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000565s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000469s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000349s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000455s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 17 )  [ RunTime:0.000365s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000311s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000383s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000501s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000465s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000430s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000463s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 17 )  [ RunTime:0.000525s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000379s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000439s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000462s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000464s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000471s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000462s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 17 )  [ RunTime:0.000458s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000390s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000493s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000332s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000437s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000426s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 17 )  [ RunTime:0.000303s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000315s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000433s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000442s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000453s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000456s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000467s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 17 )  [ RunTime:0.000435s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 )  [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036543s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000851s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000749s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003259s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001765s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001896s ]
+
+[ 2014-05-19T20:55:21+08:00 ] 0.0.0.0 /scfs/index.php/info/save_data
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001409s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001573s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.021642s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.022738s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.014864s ]
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 5 )  [ RunTime:0.000456s ]
+SQL: UPDATE `info` SET `ctr_id`=1,`stu_id`=1,`content`='asdfasdfwdf' WHERE ( `info_id` = 5 ) [ RunTime:0.131378s ]
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 1 )  [ RunTime:0.000429s ]
+SQL: UPDATE `info` SET `ctr_id`=12,`stu_id`=1,`content`='sdf' WHERE ( `info_id` = 1 ) [ RunTime:0.033047s ]
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 6 )  [ RunTime:0.000532s ]
+SQL: UPDATE `info` SET `ctr_id`=13,`stu_id`=1,`content`='2000' WHERE ( `info_id` = 6 ) [ RunTime:0.017825s ]
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 7 )  [ RunTime:0.000509s ]
+SQL: UPDATE `info` SET `ctr_id`=14,`stu_id`=1,`content`='2500' WHERE ( `info_id` = 7 ) [ RunTime:0.024306s ]
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 17 )  [ RunTime:0.000477s ]
+SQL: UPDATE `info` SET `ctr_id`=16,`stu_id`=1,`content`='4' WHERE ( `info_id` = 17 ) [ RunTime:0.017992s ]
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 0 )  [ RunTime:0.000502s ]
+SQL: INSERT INTO `info` (`info_id`,`ctr_id`,`stu_id`,`content`) VALUES (0,17,1,'') [ RunTime:0.057668s ]
+NOTIC: [8] Undefined offset: 6 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 2 )  [ RunTime:0.000466s ]
+SQL: UPDATE `info` SET `ctr_id`=1,`stu_id`=213123,`content`='asdf' WHERE ( `info_id` = 2 ) [ RunTime:0.029034s ]
+NOTIC: [8] Undefined offset: 7 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 3 )  [ RunTime:0.000519s ]
+SQL: UPDATE `info` SET `ctr_id`=12,`stu_id`=213123,`content`='eeee' WHERE ( `info_id` = 3 ) [ RunTime:0.023257s ]
+NOTIC: [8] Undefined offset: 8 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 4 )  [ RunTime:0.000463s ]
+SQL: UPDATE `info` SET `ctr_id`=13,`stu_id`=213123,`content`='1000' WHERE ( `info_id` = 4 ) [ RunTime:0.021636s ]
+NOTIC: [8] Undefined offset: 9 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 8 )  [ RunTime:0.000416s ]
+SQL: UPDATE `info` SET `ctr_id`=14,`stu_id`=213123,`content`='2500' WHERE ( `info_id` = 8 ) [ RunTime:0.018335s ]
+NOTIC: [8] Undefined offset: 10 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 18 )  [ RunTime:0.000410s ]
+SQL: UPDATE `info` SET `ctr_id`=16,`stu_id`=213123,`content`='3' WHERE ( `info_id` = 18 ) [ RunTime:0.024164s ]
+NOTIC: [8] Undefined offset: 11 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 0 )  [ RunTime:0.000441s ]
+SQL: INSERT INTO `info` (`info_id`,`ctr_id`,`stu_id`,`content`) VALUES (0,17,213123,'') [ RunTime:0.018571s ]
+NOTIC: [8] Undefined offset: 12 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 9 )  [ RunTime:0.000463s ]
+SQL: UPDATE `info` SET `ctr_id`=1,`stu_id`=213124,`content`='王大禹' WHERE ( `info_id` = 9 ) [ RunTime:0.023809s ]
+NOTIC: [8] Undefined offset: 13 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 10 )  [ RunTime:0.000314s ]
+SQL: UPDATE `info` SET `ctr_id`=12,`stu_id`=213124,`content`='哦' WHERE ( `info_id` = 10 ) [ RunTime:0.020895s ]
+NOTIC: [8] Undefined offset: 14 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 11 )  [ RunTime:0.000525s ]
+SQL: UPDATE `info` SET `ctr_id`=13,`stu_id`=213124,`content`='2000' WHERE ( `info_id` = 11 ) [ RunTime:0.021734s ]
+NOTIC: [8] Undefined offset: 15 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 12 )  [ RunTime:0.000380s ]
+SQL: UPDATE `info` SET `ctr_id`=14,`stu_id`=213124,`content`='1000' WHERE ( `info_id` = 12 ) [ RunTime:0.018229s ]
+NOTIC: [8] Undefined offset: 16 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 19 )  [ RunTime:0.000441s ]
+SQL: UPDATE `info` SET `ctr_id`=16,`stu_id`=213124,`content`='2' WHERE ( `info_id` = 19 ) [ RunTime:0.023967s ]
+NOTIC: [8] Undefined offset: 17 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 0 )  [ RunTime:0.000439s ]
+SQL: INSERT INTO `info` (`info_id`,`ctr_id`,`stu_id`,`content`) VALUES (0,17,213124,'') [ RunTime:0.018505s ]
+NOTIC: [8] Undefined offset: 18 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 13 )  [ RunTime:0.000406s ]
+SQL: UPDATE `info` SET `ctr_id`=1,`stu_id`=213125,`content`='test' WHERE ( `info_id` = 13 ) [ RunTime:0.023995s ]
+NOTIC: [8] Undefined offset: 19 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 14 )  [ RunTime:0.000353s ]
+SQL: UPDATE `info` SET `ctr_id`=12,`stu_id`=213125,`content`='test' WHERE ( `info_id` = 14 ) [ RunTime:0.018622s ]
+NOTIC: [8] Undefined offset: 20 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 15 )  [ RunTime:0.000399s ]
+SQL: UPDATE `info` SET `ctr_id`=13,`stu_id`=213125,`content`='1111' WHERE ( `info_id` = 15 ) [ RunTime:0.024232s ]
+NOTIC: [8] Undefined offset: 21 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 16 )  [ RunTime:0.000474s ]
+SQL: UPDATE `info` SET `ctr_id`=14,`stu_id`=213125,`content`='3333' WHERE ( `info_id` = 16 ) [ RunTime:0.018266s ]
+NOTIC: [8] Undefined offset: 22 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 20 )  [ RunTime:0.000484s ]
+SQL: UPDATE `info` SET `ctr_id`=16,`stu_id`=213125,`content`='1' WHERE ( `info_id` = 20 ) [ RunTime:0.024055s ]
+NOTIC: [8] Undefined offset: 23 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 0 )  [ RunTime:0.000397s ]
+SQL: INSERT INTO `info` (`info_id`,`ctr_id`,`stu_id`,`content`) VALUES (0,17,213125,'') [ RunTime:0.018378s ]
+NOTIC: [8] Undefined offset: 24 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 21 )  [ RunTime:0.000451s ]
+SQL: UPDATE `info` SET `ctr_id`=1,`stu_id`=213126,`content`='王大' WHERE ( `info_id` = 21 ) [ RunTime:0.024138s ]
+NOTIC: [8] Undefined offset: 25 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 22 )  [ RunTime:0.000463s ]
+SQL: UPDATE `info` SET `ctr_id`=12,`stu_id`=213126,`content`='ees' WHERE ( `info_id` = 22 ) [ RunTime:0.018327s ]
+NOTIC: [8] Undefined offset: 26 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 23 )  [ RunTime:0.000460s ]
+SQL: UPDATE `info` SET `ctr_id`=13,`stu_id`=213126,`content`='1209' WHERE ( `info_id` = 23 ) [ RunTime:0.023905s ]
+NOTIC: [8] Undefined offset: 27 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 24 )  [ RunTime:0.000474s ]
+SQL: UPDATE `info` SET `ctr_id`=14,`stu_id`=213126,`content`='292' WHERE ( `info_id` = 24 ) [ RunTime:0.018252s ]
+NOTIC: [8] Undefined offset: 28 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 25 )  [ RunTime:0.000425s ]
+SQL: UPDATE `info` SET `ctr_id`=16,`stu_id`=213126,`content`='1' WHERE ( `info_id` = 25 ) [ RunTime:0.024254s ]
+NOTIC: [8] Undefined offset: 29 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = 0 )  [ RunTime:0.000446s ]
+SQL: INSERT INTO `info` (`info_id`,`ctr_id`,`stu_id`,`content`) VALUES (0,17,213126,'') [ RunTime:0.018045s ]
+SQL: INSERT INTO `student` (`school_id`) VALUES (1) [ RunTime:0.024680s ]
+NOTIC: [8] Undefined offset: 30 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 30 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 30 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = null )  [ RunTime:0.000390s ]
+SQL: INSERT INTO `info` (`info_id`,`ctr_id`,`stu_id`,`content`) VALUES (null,1,213127,'12') [ RunTime:0.018379s ]
+NOTIC: [8] Undefined offset: 31 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 31 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 31 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = null )  [ RunTime:0.000387s ]
+SQL: INSERT INTO `info` (`info_id`,`ctr_id`,`stu_id`,`content`) VALUES (null,12,213127,'22') [ RunTime:0.024062s ]
+NOTIC: [8] Undefined offset: 32 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 32 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 32 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = null )  [ RunTime:0.000298s ]
+SQL: INSERT INTO `info` (`info_id`,`ctr_id`,`stu_id`,`content`) VALUES (null,13,213127,'22') [ RunTime:0.018622s ]
+NOTIC: [8] Undefined offset: 33 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 33 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 33 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = null )  [ RunTime:0.000399s ]
+SQL: INSERT INTO `info` (`info_id`,`ctr_id`,`stu_id`,`content`) VALUES (null,14,213127,'22') [ RunTime:0.023962s ]
+NOTIC: [8] Undefined offset: 34 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 34 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 34 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = null )  [ RunTime:0.000282s ]
+SQL: INSERT INTO `info` (`info_id`,`ctr_id`,`stu_id`,`content`) VALUES (null,16,213127,'22') [ RunTime:0.020882s ]
+NOTIC: [8] Undefined offset: 35 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 69 行.
+NOTIC: [8] Undefined offset: 35 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 73 行.
+NOTIC: [8] Undefined offset: 35 D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\InfoAction.class.php 第 76 行.
+SQL: SELECT * FROM `info` WHERE ( `info_id` = null )  [ RunTime:0.000416s ]
+SQL: INSERT INTO `info` (`info_id`,`ctr_id`,`stu_id`,`content`) VALUES (null,17,213127,'22') [ RunTime:0.021855s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009031s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000443s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000519s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000423s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002293s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000827s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2014-05-19T20:55:23+08:00 ] 0.0.0.0 /scfs/index.php/info
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001300s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.020758s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.029493s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.016464s ]
+SQL: SELECT * FROM `student`  [ RunTime:0.000522s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000425s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000491s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000426s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000559s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000468s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000369s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 17 )  [ RunTime:0.000583s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000308s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000336s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000365s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000387s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000353s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000522s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 17 )  [ RunTime:0.000508s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000321s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000468s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000508s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000418s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000475s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000538s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 17 )  [ RunTime:0.000562s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000474s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000537s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000530s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000419s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000368s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000538s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 17 )  [ RunTime:0.000544s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000332s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000467s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000491s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000330s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000446s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000412s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 17 )  [ RunTime:0.000408s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000273s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213127 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000284s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213127 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000298s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213127 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000257s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213127 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000261s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213127 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000324s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213127 ) AND ( `ctr_id` = 17 )  [ RunTime:0.000277s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 )  [ RunTime:0.000241s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029689s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000850s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001181s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000584s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003505s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001096s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2014-05-19T20:55:37+08:00 ] 0.0.0.0 /scfs/index.php/Common/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001033s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.013617s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000523s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023337s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000640s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000615s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000447s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002491s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001037s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2014-05-19T20:56:26+08:00 ] 0.0.0.0 /scfs/index.php/Query
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.015821s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 )  [ RunTime:0.000529s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: th_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 230 行.
+NOTIC: [8] Undefined variable: body_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 233 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029193s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000657s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000585s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000519s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002645s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001185s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2014-05-19T20:59:23+08:00 ] 0.0.0.0 /scfs/index.php/Data
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001038s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] Undefined index: school_id D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\DataAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.022489s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.015296s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000620s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 13 )  [ RunTime:0.000597s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 14 )  [ RunTime:0.000568s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 16 )  [ RunTime:0.000618s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032484s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000594s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000598s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000474s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002567s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001206s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2014-05-19T20:59:26+08:00 ] 0.0.0.0 /scfs/index.php/Query
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000969s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.029150s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 )  [ RunTime:0.000764s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: th_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 230 行.
+NOTIC: [8] Undefined variable: body_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 233 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039459s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000702s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000712s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000471s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002802s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000947s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001111s ]
+
+[ 2014-05-19T20:59:29+08:00 ] 0.0.0.0 /scfs/index.php/Data
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000911s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+NOTIC: [8] Undefined index: school_id D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\DataAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.018394s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.014781s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000557s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 13 )  [ RunTime:0.000506s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 14 )  [ RunTime:0.000352s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 16 )  [ RunTime:0.000416s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022962s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000658s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000731s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000530s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002790s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000953s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2014-05-19T20:59:34+08:00 ] 0.0.0.0 /scfs/index.php/Query
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000907s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.016536s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 )  [ RunTime:0.000590s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: th_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 230 行.
+NOTIC: [8] Undefined variable: body_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 233 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030996s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000595s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000536s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000502s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002450s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001447s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001578s ]
+
+[ 2014-05-19T20:59:38+08:00 ] 0.0.0.0 /scfs/index.php/Query/query_items
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001199s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.008841s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.009780s ]
+SQL: SELECT * FROM `student` WHERE ( `school_id` = 1 )  [ RunTime:0.000540s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 1 ) AND ( `stu_id` = 1 )  [ RunTime:0.000399s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 12 ) AND ( `stu_id` = 1 )  [ RunTime:0.000369s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 13 ) AND ( `stu_id` = 1 )  [ RunTime:0.000414s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 1 ) AND ( `stu_id` = 213123 )  [ RunTime:0.000429s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 12 ) AND ( `stu_id` = 213123 )  [ RunTime:0.000384s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 13 ) AND ( `stu_id` = 213123 )  [ RunTime:0.000288s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 1 ) AND ( `stu_id` = 213124 )  [ RunTime:0.000432s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 12 ) AND ( `stu_id` = 213124 )  [ RunTime:0.000442s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 13 ) AND ( `stu_id` = 213124 )  [ RunTime:0.000423s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 1 ) AND ( `stu_id` = 213125 )  [ RunTime:0.000412s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 12 ) AND ( `stu_id` = 213125 )  [ RunTime:0.000424s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 13 ) AND ( `stu_id` = 213125 )  [ RunTime:0.000404s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 1 ) AND ( `stu_id` = 213126 )  [ RunTime:0.000423s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 12 ) AND ( `stu_id` = 213126 )  [ RunTime:0.000411s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 13 ) AND ( `stu_id` = 213126 )  [ RunTime:0.000430s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 1 ) AND ( `stu_id` = 213127 )  [ RunTime:0.000404s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 12 ) AND ( `stu_id` = 213127 )  [ RunTime:0.000406s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 13 ) AND ( `stu_id` = 213127 )  [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.011099s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `ctr_id` IN ('1','12','13') ) AND ( `school_id` = 1 )  [ RunTime:0.000591s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 )  [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026677s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000615s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000589s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000432s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002486s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000975s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2014-05-19T21:01:11+08:00 ] 0.0.0.0 /scfs/index.php/Data
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001082s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+NOTIC: [8] Undefined index: school_id D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\DataAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.026748s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.016782s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000578s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 13 )  [ RunTime:0.000578s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 14 )  [ RunTime:0.000604s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 16 )  [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021824s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000544s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000593s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002463s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001203s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2014-05-19T21:01:30+08:00 ] 0.0.0.0 /scfs/index.php/Query
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.029380s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 )  [ RunTime:0.000752s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: th_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 230 行.
+NOTIC: [8] Undefined variable: body_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 233 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.047065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000865s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001096s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001050s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004586s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001586s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001711s ]
+
+[ 2014-05-19T21:01:36+08:00 ] 0.0.0.0 /scfs/index.php/Query/query_items
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001509s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+NOTIC: [8] Undefined index: checked D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\QueryAction.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010772s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000484s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000546s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000477s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002356s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000886s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2014-05-19T21:01:40+08:00 ] 0.0.0.0 /scfs/index.php/Query
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002748s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003141s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001916s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.026725s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 )  [ RunTime:0.000779s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: th_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 230 行.
+NOTIC: [8] Undefined variable: body_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 233 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050401s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000653s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000655s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000590s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002988s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001070s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2014-05-19T21:02:28+08:00 ] 0.0.0.0 /scfs/index.php/Info
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000912s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.009899s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.010820s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.010082s ]
+SQL: SELECT * FROM `student`  [ RunTime:0.000438s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000397s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000455s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000415s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000419s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000412s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000413s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 1 ) AND ( `ctr_id` = 17 )  [ RunTime:0.000411s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000224s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000381s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000270s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000489s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000361s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000436s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213123 ) AND ( `ctr_id` = 17 )  [ RunTime:0.000398s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000297s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000279s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000273s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000263s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000291s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000257s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213124 ) AND ( `ctr_id` = 17 )  [ RunTime:0.000331s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000223s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000246s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000243s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000251s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000250s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000246s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213125 ) AND ( `ctr_id` = 17 )  [ RunTime:0.000217s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000242s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000254s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000338s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000322s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000269s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000236s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213126 ) AND ( `ctr_id` = 17 )  [ RunTime:0.000314s ]
+SQL: SELECT * FROM `info_ctr`  [ RunTime:0.000211s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213127 ) AND ( `ctr_id` = 1 )  [ RunTime:0.000235s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213127 ) AND ( `ctr_id` = 12 )  [ RunTime:0.000246s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213127 ) AND ( `ctr_id` = 13 )  [ RunTime:0.000297s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213127 ) AND ( `ctr_id` = 14 )  [ RunTime:0.000259s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213127 ) AND ( `ctr_id` = 16 )  [ RunTime:0.000241s ]
+SQL: SELECT * FROM `info` WHERE ( `stu_id` = 213127 ) AND ( `ctr_id` = 17 )  [ RunTime:0.000293s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 )  [ RunTime:0.000221s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030323s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001599s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001327s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000997s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005382s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001408s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001524s ]
+
+[ 2014-05-19T21:02:30+08:00 ] 0.0.0.0 /scfs/index.php/Query
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000909s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.026896s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 )  [ RunTime:0.000598s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: th_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 230 行.
+NOTIC: [8] Undefined variable: body_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 233 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031148s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000568s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000631s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000505s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000769s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002631s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001165s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2014-05-19T21:02:40+08:00 ] 0.0.0.0 /scfs/index.php/Query/query_items
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001134s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.018440s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.017166s ]
+SQL: SELECT * FROM `student` WHERE ( `school_id` = 1 )  [ RunTime:0.000555s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 1 ) AND ( `stu_id` = 1 )  [ RunTime:0.000527s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 12 ) AND ( `stu_id` = 1 )  [ RunTime:0.000490s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 1 ) AND ( `stu_id` = 213123 )  [ RunTime:0.000593s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 12 ) AND ( `stu_id` = 213123 )  [ RunTime:0.000597s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 1 ) AND ( `stu_id` = 213124 )  [ RunTime:0.000522s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 12 ) AND ( `stu_id` = 213124 )  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 1 ) AND ( `stu_id` = 213125 )  [ RunTime:0.000487s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 12 ) AND ( `stu_id` = 213125 )  [ RunTime:0.000341s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 1 ) AND ( `stu_id` = 213126 )  [ RunTime:0.000442s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 12 ) AND ( `stu_id` = 213126 )  [ RunTime:0.000405s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 1 ) AND ( `stu_id` = 213127 )  [ RunTime:0.000538s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 12 ) AND ( `stu_id` = 213127 )  [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.014132s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `ctr_id` IN ('1','12') ) AND ( `school_id` = 1 )  [ RunTime:0.000554s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 )  [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026443s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000571s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000536s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000442s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002369s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000936s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2014-05-19T21:03:57+08:00 ] 0.0.0.0 /scfs/index.php/Query/query_items
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001035s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+NOTIC: [8] Undefined index: checked D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\QueryAction.class.php 第 13 行.
+NOTIC: [8] Undefined index: school_id D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\QueryAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009093s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000647s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000498s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002538s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000867s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2014-05-19T21:04:02+08:00 ] 0.0.0.0 /scfs/index.php/Query
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001484s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.013077s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 )  [ RunTime:0.000477s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: th_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 230 行.
+NOTIC: [8] Undefined variable: body_data D:\PgmTools\xampp\htdocs\scfs\Scfs\Runtime\Cache\60d8d122b8eb9e1341145dd0b00dee81.php 第 233 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029515s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000745s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000628s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000464s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002883s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001270s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001392s ]
+
+[ 2014-05-19T21:05:05+08:00 ] 0.0.0.0 /scfs/index.php/Data
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+NOTIC: [8] Undefined index: school_id D:\PgmTools\xampp\htdocs\scfs\Scfs\Lib\Action\DataAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `info_ctr` [ RunTime:0.012488s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.010352s ]
+SQL: SELECT * FROM `info_ctr` WHERE ( `school_id` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000452s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 13 )  [ RunTime:0.000438s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 14 )  [ RunTime:0.000421s ]
+SQL: SELECT * FROM `info` WHERE ( `ctr_id` = 16 )  [ RunTime:0.000435s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020392s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000584s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000475s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000369s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002112s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000775s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000854s ]
+
