@@ -48,10 +48,13 @@
           $_SESSION['user_name'] = $user_data['user_name'];
           $_SESSION['auth'] = $user_data['auth'];
           $_SESSION['school_id'] = $user_data['school_id'];
+          $this->success("登陆成功",U("Common/index"));
         }
-        return $_SESSION['auth'];
+        else{
+          $this->error('登陆失败');
+        }
       }
-      return $this->check_log_state();
+      $this->error('登陆失败',U("Index/index"));
     }
 
     public function log_out(){
@@ -59,7 +62,7 @@
       $_SESSION['user_name'] = '';
       $_SESSION['auth'] = '';
       $_SESSION['school_id'] = '';
-      $this->display('Index:index');
+      $this->success('注销成功','Index:index');
     }
 
     public function check_log_state(){

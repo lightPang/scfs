@@ -6,5 +6,8 @@ class IndexAction extends Action {
       if( $userAc->check_log_state() == $userAc::USER_NOT_LOGIN ){
         $this->display();
       }
+      else{
+        $this->redirect('Common/index', array(), 0,'页面跳转中~');
+      }
     }
 }
