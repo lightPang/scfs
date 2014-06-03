@@ -6,24 +6,27 @@
       $id = $_POST['id'];
       $school_id = $_POST['school_id'];
       $info_ctr = M('info_ctr');
+
       for( $i = 0 ; $i < count($id) ; $i ++ ){
-        $data['id'] = $id[$i];
+        $data['ctr_id'] = $id[$i];
         $data['title'] = $title[$i];
         $data['type'] = $type[$i];
+        //echo $type[$i]."<br>";
         $data['school_id'] = $school_id;
-        if( $data['id'] != 0 ){
-          $map['ctr_id'] = $id[$i];
+        if( $data['ctr_id'] != 0 ){
+          $map['ctr_id'] = $data['ctr_id'];
           $ctr_item = $info_ctr->where( $map )->select()[0];
           if( $ctr_item['type'] == 0 && $data['type'] == 1 ){
             $this->error("无法将文本转化为数字存储",'__APP__/Common/index');
           }
-        }
-        if( $data['id'] == 0 )
-        {
-          $info_ctr->add($data);
-        }
-        else
+          
           $info_ctr->save($data);
+        }
+        else 
+        {
+          $ctr_id = $info_ctr->add($data);
+        }
+          
       }
 
       $this->success( '保存成功' , '__APP__/Common/index');

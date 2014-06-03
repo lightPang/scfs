@@ -73,8 +73,12 @@
           $query_info['info_id'] = $info_id[ $i*$ctr_len + $j ];
           //print_r( $info_item );
           //echo "<br/>";
-          if( $type[ $i*$ctr_len + $j ] == 1 and !is_numeric( $info_item['content'] )){
-            $this->error( "输入内容有误，请重新输入");
+          if( $type[ $j ] == 1 and !is_numeric( $info_item['content'] )){
+            //echo $info_item['content']."stu id is ".$info_item['stu_id']."type id is " .$ctr_id[ $j ];
+            if( $info_item['content'] == '' )
+              $info_item['content'] = 0;
+            else
+              $this->error( "输入内容有误，请重新输入");
           }
           if( count($info->where($query_info)->select()) == 0 )
           {
